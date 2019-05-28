@@ -1,7 +1,7 @@
 """
 HelloWorld.py
 ====================================
-Document créé à 13h05.
+Document créé à 13h05 precise.
 """
 
 def confessions(your_name):
