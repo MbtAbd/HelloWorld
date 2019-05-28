@@ -1,10 +1,11 @@
 """
 HelloWorld.py
 ====================================
-Document créé à 13h05 precisee.
+Document créé à 14h50.
+Doc généré par Sphinx2.0.
 """
 
-def confessions(your_name):
+def confession(your_name):
     """
     Return the most important secret of a person.
     
@@ -13,6 +14,12 @@ def confessions(your_name):
     your_name
         A string indicating the name of the person.
     """
-    print("The wise {} loves Python.".format(your_name))            
+    print("The wise {} loves Python.".format(your_name))
 
-confessions("Ab")
+def WhoAmI():
+    """
+    Return the name of a person.
+    """
+    return("Abderrahmen")
+
+confession(WhoAmI())
